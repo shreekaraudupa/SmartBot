@@ -1,0 +1,12 @@
+## For color and text
+http://ozzmaker.com/add-colour-to-text-in-python/
+
+\033[1;32;0m
+
+The above ANSI escape code will set the text colour to bright green. The format is;
+\033[  Escape code, this is always the same
+1 = Style, 1 for normal.
+32 = Text colour, 32 for bright green.
+40m = Background colour, 40 is for black.
+
+
