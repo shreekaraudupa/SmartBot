@@ -9,4 +9,13 @@ The above ANSI escape code will set the text colour to bright green. The format 
 32 = Text colour, 32 for bright green.
 40m = Background colour, 40 is for black.
 
+##Spacy links
+https://spacy.io/usage/rule-based-matching
 
+eg-
+https://stackabuse.com/python-for-nlp-vocabulary-and-phrase-matching-with-spacy/
+
+to use nlp or not
+https://www.searchtechnologies.com/nlp-project-feasibility-flowchart
+
+to check if string has date

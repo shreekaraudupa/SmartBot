@@ -16,15 +16,15 @@ training_data.append({"class":"greeting", "sentence":"ssup how is your day? wass
 training_data.append({"class":"greeting", "sentence":"good day sup"})
 training_data.append({"class":"greeting", "sentence":"how is it going today great hiii?"})
 
-training_data.append({"class":"etl", "sentence":"run this feed id for this etl pbus?"})
+training_data.append({"class":"etl", "sentence":"run this feed id for this etl pbus? timeseries composite"})
 training_data.append({"class":"etl", "sentence":"get  account details feed for ipb exgeneva"})
 training_data.append({"class":"etl", "sentence":"composite account timeseries for this account "})
 training_data.append({"class":"etl", "sentence":" type of account in composite model timeseries"})
 
-training_data.append({"class":"cr", "sentence":"trigger the  process to get the report"})
-training_data.append({"class":"cr", "sentence":"generate reports for client"})
-training_data.append({"class":"cr", "sentence":"generate reports for month of jan"})
-training_data.append({"class":"cr", "sentence":"page of account report generated"})
+training_data.append({"class":"cr", "sentence":"trigger  process   report"})
+training_data.append({"class":"cr", "sentence":"generate reports  client"})
+training_data.append({"class":"cr", "sentence":"generate reports  month"})
+training_data.append({"class":"cr", "sentence":"page   report generated"})
 print ("%s sentences of training data" % len(training_data))
 
 # capture unique stemmed words in the training corpus
@@ -88,24 +88,4 @@ def classify(sentence):
             high_score = score
 
     return high_class, high_score
-
-print("\n\033[1;30;47m SmartBot: Welcome to Sparta !!")
-#print("\n\033[1;32;40m SmartBot Ready to help you :)  !!\n")
-while True:
-    sentence = input("\033[1;32;0m You: ")
-#    for c in class_words.keys():
-#        print ("Class: %s  Score: %s \n" % (c, calculate_class_score_acc(sentence, c)))
-    prediction=[]
-    prediction=classify(sentence)
-    if prediction[0] == "greeting":
-        print("\033[1;32;0m SmartBot: "+random.choice(Greeting_response))
-    elif prediction[0] == "etl":
-        print("\033[1;32;0m SmartBot: Our understanding is you want to trigger a ETL")
-    elif prediction[0] == "cr":
-        print("\033[1;32;0m SmartBot: Our understanding is you want to generate a report")
-    elif 'bye' in sentence:
-        print("\033[1;32;0m SmartBot: Goodbye Have a Nice day!  \n")
-        break
-    else:
-        print("\033[1;32;0m SmartBot: I am not able to understand , can you provide more details")
 
