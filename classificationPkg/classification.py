@@ -16,10 +16,15 @@ training_data.append({"class":"greeting", "sentence":"ssup how is your day? wass
 training_data.append({"class":"greeting", "sentence":"good day sup"})
 training_data.append({"class":"greeting", "sentence":"how is it going today great hiii?"})
 
-training_data.append({"class":"etl", "sentence":"run this feed id for this etl pbus? timeseries composite"})
-training_data.append({"class":"etl", "sentence":"get  account details feed for ipb exgeneva"})
-training_data.append({"class":"etl", "sentence":"composite account timeseries for this account "})
-training_data.append({"class":"etl", "sentence":" type of account in composite model timeseries"})
+training_data.append({"class":"etl", "sentence":"run this feed id  etl pbus? timeseries composite"})
+training_data.append({"class":"etl", "sentence":"get  account details feed  ipb exgeneva"})
+training_data.append({"class":"etl", "sentence":"composite account timeseries  account "})
+training_data.append({"class":"etl", "sentence":" type of account  composite model timeseries"})
+
+training_data.append({"class":"pbus", "sentence":"account detials account exception"})
+training_data.append({"class":"pbus", "sentence":"account exception count account pbus"})
+training_data.append({"class":"pbus", "sentence":"closed exception count account"})
+training_data.append({"class":"pbus", "sentence":"evaluation date account total details"})
 
 training_data.append({"class":"cr", "sentence":"trigger  process   report"})
 training_data.append({"class":"cr", "sentence":"generate reports  client"})

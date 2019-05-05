@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69e39e7-3d30-4a10-ad87-e472eda5a0da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classificationPkg/conversation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/buildJson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/compositeService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/classificationPkg/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classificationPkg/classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/classificationPkg/spacyTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/important.txt" beforeDir="false" afterPath="$PROJECT_DIR$/important.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/sqlService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classificationPkg/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classificationPkg/classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classificationPkg/conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/classificationPkg/initConversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/compositeService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/compositeService.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,33 +22,34 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="21" />
-          <entry key="py" value="2847" />
+          <entry key="dummy" value="26" />
+          <entry key="py" value="3220" />
           <entry key="txt" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="122" />
-          <entry key="Python" value="2847" />
+          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="Python" value="3220" />
         </counts>
       </usages-collector>
     </session>
@@ -67,16 +63,16 @@
         <entry file="file://$PROJECT_DIR$/classificationPkg/classification.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classificationPkg/conversation.py">
+        <entry file="file://$PROJECT_DIR$/classificationPkg/initConversation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="97">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#0#114#0" expanded="true" />
               </folding>
@@ -88,16 +84,16 @@
         <entry file="file://$PROJECT_DIR$/service/compositeService.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/buildJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="88">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <marker date="1556638528393" expanded="true" signature="391:675" ph="..." />
               </folding>
@@ -107,6 +103,15 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classificationPkg/spacyTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/sqlService.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -138,11 +143,13 @@
         <option value="$PROJECT_DIR$/classification/classification.py" />
         <option value="$PROJECT_DIR$/classification/conversation.py" />
         <option value="$PROJECT_DIR$/important.txt" />
-        <option value="$PROJECT_DIR$/classificationPkg/spacyTest.py" />
         <option value="$PROJECT_DIR$/service/buildJson.py" />
         <option value="$PROJECT_DIR$/classificationPkg/conversation.py" />
-        <option value="$PROJECT_DIR$/classificationPkg/classification.py" />
         <option value="$PROJECT_DIR$/service/compositeService.py" />
+        <option value="$PROJECT_DIR$/classificationPkg/classification.py" />
+        <option value="$PROJECT_DIR$/classificationPkg/initConversation.py" />
+        <option value="$PROJECT_DIR$/classificationPkg/spacyTest.py" />
+        <option value="$PROJECT_DIR$/service/sqlService.py" />
       </list>
     </option>
   </component>
@@ -175,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.conversation (1)">
+  <component name="RunManager" selected="Python.initConversation">
     <configuration name="buildJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SmartBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,7 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classificationPkg/conversation.py" />
+      <option name="SCRIPT_NAME" value="C:\FFG\SmartBot\classificationPkg\initConversation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="greetings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="initConversation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SmartBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,11 +319,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classificationPkg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\FFG\SmartBot\classification\conversation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classificationPkg/initConversation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,18 +354,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.greetings" />
       <item itemvalue="Python.conversation" />
       <item itemvalue="Python.conversation (1)" />
       <item itemvalue="Python.spacyTest" />
       <item itemvalue="Python.buildJson" />
+      <item itemvalue="Python.initConversation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.initConversation" />
         <item itemvalue="Python.conversation (1)" />
         <item itemvalue="Python.buildJson" />
         <item itemvalue="Python.spacyTest" />
-        <item itemvalue="Python.conversation" />
         <item itemvalue="Python.conversation" />
       </list>
     </recent_temporary>
@@ -387,13 +394,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49760765" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49760765" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50239235" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3478261" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52334946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,33 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classificationPkg/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classificationPkg/conversation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/compositeService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classificationPkg/spacyTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/important.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -484,13 +465,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/buildJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="88">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <marker date="1556638528393" expanded="true" signature="391:675" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/compositeService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificationPkg/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificationPkg/initConversation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificationPkg/spacyTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/sqlService.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
